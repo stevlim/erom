@@ -21,7 +21,7 @@ public class AffMgmtServiceImpl implements AffMgmtService
 	 Logger log = Logger.getLogger(this.getClass());
 	 
 	@Resource(name="affMgmtDAO")
-	private AffMgmtDAO affMgmtDAO; 
+	private AffMgmtDAO affMgmtDAO;  
 	
 	@Resource(name="historySearchDAO")
     private HistorySearchDAO historySearchDAO;
